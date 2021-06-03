@@ -1,0 +1,35 @@
+
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="222.css">
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        *{
+            /*border:1px red solid;*/
+            padding:0px;
+            margin:0px;
+
+        }
+    </style>
+</head>
+<body>
+<div class="container-field">
+
+    <div class="row">
+        <div class="col-md-8 " >
+            <img class="p-2" src="<?php echo $res[0]['car_image']?>"  width="600" height="390" >
+            <h3 class="p-2"><?php echo $res[0]['car_name']?></h3>
+            <span class="p-2">Price: <?php echo $res[0]['car_price']?>tg</span>
+            <p class="p-2">Полная комплектация High-Tech. Гарантия 5 лет. Камера заднего вида 360 с динамической разметкой. Система кругового обзора. Машина новая! </p>
+
+
+        </div>
+  </div>
+  </body>
+  </html>
